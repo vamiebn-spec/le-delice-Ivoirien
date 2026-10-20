@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Délice Ivoirien - Notre Menu</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-orange-50 text-gray-800">
+    <!-- En-tête du restaurant -->
+    <header class="bg-orange-700 text-white text-center p-8">
+        <h1 class="text-3xl md:text-4xl font-bold">
+            Le Délice Ivoirien
+        </h1>
+
+        <p class="mt-3 text-lg">
+            Découvrez les saveurs authentiques de la Côte d'Ivoire
+        </p>
+    </header>
+    <!-- Contenu principal -->
+    <main class="max-w-6xl mx-auto px-4 py-8">
+        <!-- Section du menu -->
+        <section class="bg-white rounded-xl shadow-lg p-4 md:p-8">
+            <h2 class="text-2xl md:text-3xl font-bold text-orange-700 mb-3">
+                Notre Menu
+            </h2>
+            <p class="text-gray-600 mb-6">
+                Des entrées savoureuses, des plats généreux et des desserts gourmands.
+            </p>
+            <!-- Tableau du menu -->
+            <div class="overflow-x-auto">
+                <table class="w-full border-collapse text-left">
+                    <!-- En-tête du tableau -->
+                    <thead class="bg-orange-100">
+                        <tr>
+                            <th scope="col" class="border border-orange-200 p-3">
+                                Image
+                            </th>
+
+                            <th scope="col" class="border border-orange-200 p-3">
+                                Nom du plat
+                            </th>
+
+                            <th scope="col" class="border border-orange-200 p-3">
+                                Description
+                            </th>
+
+                            <th scope="col" class="border border-orange-200 p-3">
+                                Prix
+                            </th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <!-- CATÉGORIE 1 : ENTRÉES -->
+                        <tr class="bg-orange-700 text-white">
+                            <th colspan="4" scope="colgroup" class="p-3 text-lg">
+                                Entrées
+                            </th>
+                        </tr>
+
+                        <tr class="hover:bg-orange-50">
+                            <td class="border p-3">
+                                <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=200"
+                                    alt="Salade fraîche composée de légumes" class="w-24 h-20 object-cover rounded-lg">
+                            </td>
+
+                            <td class="border p-3 font-semibold">
+                                Salade composée
+                            </td>
+
+                            <td class="border p-3">
+                                Laitue, tomates, concombres et vinaigrette maison.
+                            </td>
+
+                            <td class="border p-3 font-semibold whitespace-nowrap">
+                                2 500 FCFA
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-orange-50">
+                            <td class="border p-3">
+                                <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=200"
+                                    alt="Petits beignets dorés servis dans une assiette"
+                                    class="w-24 h-20 object-cover rounded-lg">
+                            </td>
+                            <td class="border p-3 font-semibold">
+                                Beignets salés
+                            </td>
+
+                            <td class="border p-3">
+                                Beignets croustillants préparés avec des ingrédients frais.
+                            </td>
+
+                            <td class="border p-3 font-semibold whitespace-nowrap">
+                                1 500 FCFA
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-orange-50">
+                            <td class="border p-3">
+                                <img src="https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?w=200"
+                                    alt="Petite portion de salade et légumes frais"
+                                    class="w-24 h-20 object-cover rounded-lg">
+                            </td>
+
+                            <td class="border p-3 font-semibold">
+                                Crudités fraîches
+                            </td>
+
+                            <td class="border p-3">
+                                Assortiment de légumes frais avec sauce légère.
+                            </td>
+
+                            <td class="border p-3 font-semibold whitespace-nowrap">
+                                2 000 FCFA
+                            </td>
+                        </tr>
+
+                        <!-- CATÉGORIE 2 : PLATS PRINCIPAUX -->
+                        <tr class="bg-orange-700 text-white">
+                            <th colspan="4" scope="colgroup" class="p-3 text-lg">
+                                Plats principaux
+                            </th>
+                        </tr>
+
+                        <tr class="hover:bg-orange-50">
+                            <td class="border p-3">
+                                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=200"
+                                    alt="Pizza garnie de fromage et de légumes"
+                                    class="w-24 h-20 object-cover rounded-lg">
+                            </td>
+
+                            <td class="border p-3 font-semibold">
+                                Pizza maison
+                            </td>
+
+                            <td class="border p-3">
+                                Pâte maison, sauce tomate, fromage et garniture.
+                            </td>
+
+                            <td class="border p-3 font-semibold whitespace-nowrap">
+                                5 000 FCFA
+                            </td>
+                        </tr>
+
+                        <tr class="hover:bg-orange-50">
+                            <td class="border p-3">
+                                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=200"
+                                    alt="Bol de riz accompagné de légumes et d'autres ingrédients"
+                                    class="w-24 h-20 object-cover rounded-lg">
+                            </td>
+
+                            <td class="border p-3 font-semibold">
+                                Riz aux légumes
+                            </td>
+
+                            <td class="border p-3">
+                                Riz parfumé accompagné de légumes et d'épices.
+                            </td>
+
+                            <td class="border p-3 font-semibold whitespace-nowrap">
+                                3 500 FCFA
+                            </td>
+                        </tr>
+
+                        <tr class="hover:bg-orange-50">
+                            <td class="border p-3">
+                                <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=200"
+                                    alt="Viande grillée accompagnée de garnitures"
+                                    class="w-24 h-20 object-cover rounded-lg">
+                            </td>
+
+                            <td class="border p-3 font-semibold">
+                                Viande grillée
+                            </td>
+
+                            <td class="border p-3">
+                                Viande marinée et grillée, servie avec un accompagnement.
+                            </td>
+
+                            <td class="border p-3 font-semibold whitespace-nowrap">
+                                4 500 FCFA
+                            </td>
+                        </tr>
+
+                        <!-- CATÉGORIE 3 : DESSERTS -->
+                        <tr class="bg-orange-700 text-white">
+                            <th colspan="4" scope="colgroup" class="p-3 text-lg">
+                                Desserts
+                            </th>
+                        </tr>
+
+                        <tr class="hover:bg-orange-50">
+                            <td class="border p-3">
+                                <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=200"
+                                    alt="Dessert glacé servi dans un bol" class="w-24 h-20 object-cover rounded-lg">
+                            </td>
+
+                            <td class="border p-3 font-semibold">
+                                Glace maison
+                            </td>
+
+                            <td class="border p-3">
+                                Glace onctueuse aux parfums du moment.
+                            </td>
+
+                            <td class="border p-3 font-semibold whitespace-nowrap">
+                                1 500 FCFA
+                            </td>
+                        </tr>
+
+                        <tr class="hover:bg-orange-50">
+                            <td class="border p-3">
+                                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=200"
+                                    alt="Gâteau au chocolat décoré" class="w-24 h-20 object-cover rounded-lg">
+                            </td>
+
+                            <td class="border p-3 font-semibold">
+                                Gâteau au chocolat
+                            </td>
+
+                            <td class="border p-3">
+                                Gâteau moelleux au chocolat préparé maison.
+                            </td>
+
+                            <td class="border p-3 font-semibold whitespace-nowrap">
+                                2 000 FCFA
+                            </td>
+                        </tr>
+
+                        <tr class="hover:bg-orange-50">
+                            <td class="border p-3">
+                                <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=200"
+                                    alt="Dessert au yaourt et aux fruits frais"
+                                    class="w-24 h-20 object-cover rounded-lg">
+                            </td>
+
+                            <td class="border p-3 font-semibold">
+                                Yaourt aux fruits
+                            </td>
+
+                            <td class="border p-3">
+                                Yaourt frais accompagné de morceaux de fruits.
+                            </td>
+
+                            <td class="border p-3 font-semibold whitespace-nowrap">
+                                1 000 FCFA
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Pied de page -->
+    <footer class="bg-gray-900 text-white text-center p-5 mt-8">
+        <p>&copy; 2026 Le Délice Ivoirien. Tous droits réservés.</p>
+
+        <p class="text-gray-300 text-sm mt-2">
+            Merci de votre visite !
+        </p>
+    </footer>
+
+
+    <table scop="col">
+
+        <tr>
+            <th>dhfjd</th>
+            <td>hfhsfkj</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
